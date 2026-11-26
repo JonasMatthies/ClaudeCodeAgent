@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "DIRIGENT_DATA=\"${CLAUDE_PLUGIN_DATA}\" bash \"${CLAUDE_PLUGIN_ROOT}/scripts/dirigent.sh\" hook",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

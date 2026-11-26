@@ -1,0 +1,9 @@
+{
+  "name": "dirigent",
+  "version": "0.1.0",
+  "description": "Orchestrierung für Code-Projekte: das Hauptmodell zerlegt die Aufgabe, wählt pro Teilschritt Modell und Effort, delegiert mit minimalem Kontext und prüft das Ergebnis.",
+  "author": {
+    "name": "JonasMatthies"
+  },
+  "license": "MIT"
+}

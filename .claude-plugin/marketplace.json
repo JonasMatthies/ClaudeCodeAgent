@@ -1,0 +1,15 @@
+{
+  "name": "claudecodeagent",
+  "owner": {
+    "name": "JonasMatthies"
+  },
+  "plugins": [
+    {
+      "name": "dirigent",
+      "source": "./plugins/dirigent",
+      "description": "Großes Modell plant und zerlegt, kleinere Modelle setzen um, Ergebnis wird geprüft – kosten- und tokeneffizient.",
+      "version": "0.1.0"
+    }
+  ],
+  "description": "Eigene Claude-Code-Plugins von JonasMatthies"
+}
